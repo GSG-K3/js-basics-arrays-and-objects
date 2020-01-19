@@ -1,5 +1,8 @@
 # js-basics-arrays-and-objects
 
+primitive values: number, boolean, null, and undefined.
+Non-primitive values: Objects and arrays
+
 ** Differences 
   arr=[]  //Guess what console.log(arr[5]) will give!!
   var fruits = [ "apple", "orange", "mango" ];
@@ -44,6 +47,24 @@
   
  * toString()
    Returns a string representing the specified array and its elements.
+
+
+*** Objects
+** Object declaration
+   const objectName = {};
+
+ * Object.assign()
+   Copies the values of all enumerable own properties from one or more source objects to a target object.
+
+ * Object.keys()
+    Returns an array containing the names of all of the given object's own enumerable string properties.
+
+ * Object.values()
+    Returns an array containing the values that correspond to all of a given object's own enumerable string properties.
+
+    **Qustions to think about togather**
+    - How can we copy obj?
+    - How can we reach specific element in Obj?
 
 
 
